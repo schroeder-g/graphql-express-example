@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "example project",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon app.js"
+  },
+  "author": "Alex Goncalves",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.6.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.13",
+    "shortid": "^2.2.16"
+  }
+}
